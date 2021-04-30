@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'py_pubsub'
+package_name = 'auto_car_ros2'
 
 setup(
     name=package_name,
@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-                'talker = py_pubsub.publisher_member_function:main',
-                'joy = py_pubsub.joy:main'
+                'talker = auto_car_ros2.publisher_member_function:main',
+                'joy = auto_car_ros2.joy:main'
         ],
 },
 )
